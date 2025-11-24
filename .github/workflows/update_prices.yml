@@ -2,7 +2,7 @@ name: Update Car Prices Daily
 
 on:
   schedule:
-    - cron: '23 10 * *'  # يعمل يوميًا الساعة 2 صباحًا UTC
+    - cron: '23 14 * *'  # يعمل يوميًا الساعة 2 صباحًا UTC
   workflow_dispatch:
 
 jobs:
